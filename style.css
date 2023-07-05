@@ -8,11 +8,92 @@
 }
 .id{
     height: 100vh;
-    width:30%;
+    width:20%;
     display: inline-block;
     background-color:#5B2C6F 
 }
 body
 {
    margin: 0;
+}
+
+.title{
+   
+    font-size: 108px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    display:flex;
+    margin-top: -720px; 
+    margin-left:  415px;
+    align-items: center;
+}
+.sub-title{
+    color:#5B2C6F;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.address
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px; 
+    margin-left: 435px;
+    margin-top: -120px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+
+}
+nav{
+   
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    line-height: 50px;
+    text-decoration: none;
+    text-align: center;
+    background-color:grey;
+    color: white !important;
+    border: 2px solid grey;
+    font-size: 11px;
+
+}
+.describe
+{   
+  
+   
+    margin-top:45px; 
+    margin-left: 615px; 
+    font-size: 17px;
+    color:grey;
+   
+
+}
+.profile{
+
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 70%;
+    
+}
+.links
+{
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    
+   
+
+}
+.conhecimentos{
+   
+    font-size: 27px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    display:flex;
+    margin-top: -620px; 
+    margin-left: 415px;
 }
