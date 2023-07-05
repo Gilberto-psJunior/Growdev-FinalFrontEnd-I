@@ -19,7 +19,7 @@ body
 
 .title{
    
-    font-size: 108px;
+    font-size: 7rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     display:flex;
@@ -77,6 +77,19 @@ nav{
     margin-top: 70%;
     
 }
+a.icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    line-height: 50px;
+    text-decoration: none;
+    text-align: center;
+    background-color:#000;
+    color: white ;
+    border: 2px solid #6A5ACD;
+    font-size: 20px;
+    
+}
 .links
 {
     margin-top: 20px;
@@ -88,7 +101,7 @@ nav{
    
 
 }
-.conhecimentos{
+.knowledge{
    
     font-size: 27px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -96,4 +109,50 @@ nav{
     display:flex;
     margin-top: -620px; 
     margin-left: 415px;
+}
+.highlight{
+    color:black;
+}
+.social{
+    display:flex;
+    justify-content: space-between;
+    width: 350px;
+    margin-left: 580px;
+    margin-top: 55px;
+}
+li:hover{
+   transform: scale(1.5);
+    
+}
+li{
+    color: #5B2C6F;
+}
+.objective{
+   
+    font-size: 20px;
+    
+    text-align: center;
+    
+    display:block;
+    margin-top: -600px; 
+    margin-left: 115px;
+    color:#000;
+}
+.lists{
+    margin-left:180px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+  }
+
+.objective h2{
+   
+    
+    color:#5B2C6F; 
+  
+    text-align: center;
+    
+    font-size: 45px;
+}
+.dt{
+    margin-left: 200px;
 }
