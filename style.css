@@ -1,3 +1,8 @@
+
+body{
+    margin: 0;
+   
+}
 .image{
     border-style:double;
     border-width: 10px;
@@ -23,7 +28,7 @@ body
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     display:flex;
-    margin-top: -720px; 
+    margin-top: -820px; 
     margin-left:  415px;
     align-items: center;
 }
@@ -57,6 +62,9 @@ nav{
     border: 2px solid grey;
     font-size: 11px;
 
+}
+main{
+    background-image: linear-gradient(to bottom,purple ,white);
 }
 .describe
 {   
@@ -120,7 +128,7 @@ a.icon{
     margin-left: 580px;
     margin-top: 55px;
 }
-li:hover{
+li:hover,a:hover{
    transform: scale(1.5);
     
 }
@@ -140,7 +148,7 @@ li{
 }
 .lists{
     margin-left:180px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
     font-size: 20px;
   }
 
