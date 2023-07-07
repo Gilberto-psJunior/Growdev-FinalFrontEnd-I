@@ -189,3 +189,13 @@ li{
 hover{
     cursor: pointer;
 }
+#linkedin:hover{
+    color: rgba(0, 162, 255, 0.493);
+}
+#email:hover{
+    color: yellow;
+
+}
+#github:hover{
+    color: #5B2C6F;
+}
