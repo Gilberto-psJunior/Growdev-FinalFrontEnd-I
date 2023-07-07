@@ -87,7 +87,7 @@ main{
   justify-content: center;
   margin-left: 100px;
     text-align: center;
-    color:grey;
+    color:rgb(54, 54, 54);
    
 
 }
@@ -186,9 +186,7 @@ li{
 .dt{
     margin-left: 100px;
 }
-hover{
-    cursor: pointer;
-}
+
 #linkedin:hover{
     color: rgba(0, 162, 255, 0.493);
 }
