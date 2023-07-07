@@ -148,6 +148,7 @@ a.icon{
     max-width: 50%;
 }
 li:hover,a:hover{
+    cursor: pointer;
    transform: scale(1.2);
    transition: 0.2s;
     
@@ -183,4 +184,7 @@ li{
 }
 .dt{
     margin-left: 100px;
+}
+hover{
+    cursor: pointer;
 }
