@@ -165,7 +165,7 @@ li{
     
     display: flex;
     flex-direction: column;
-  
+    font-family: sans-serif;
     color:#000;
 }
 .lists{
@@ -185,6 +185,7 @@ li{
 }
 .dt{
     margin-left: 100px;
+    font-family: sans-serif;
 }
 
 #linkedin:hover{
