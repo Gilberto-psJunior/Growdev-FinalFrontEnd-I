@@ -23,7 +23,7 @@ body{
     border-style:double;
     border-width: 10px;
    
-   box-shadow:2px 5px 5px 5px #ab0af0;
+   box-shadow:2px 5px 5px 5px #9103ce;
    animation: neon-animation 1.5s infinite alternate;
 }
 .id{
