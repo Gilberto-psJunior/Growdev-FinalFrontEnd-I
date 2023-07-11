@@ -19,6 +19,12 @@ body{
     display: flex;
     height: 150px;
 }
+.image:hover{
+    border-style:double;
+    border-width: 10px;
+   
+   box-shadow:2px 5px 5px 5px #ab0af0;
+}
 .id{
     margin-top: 0px;
     height: 100vh;
@@ -41,6 +47,7 @@ body
     text-align: center;
     padding-bottom: 20px;
     justify-content: center;
+
     
     align-items: center;
 }
@@ -51,7 +58,8 @@ body
 }
 .address
 {margin-left: 100px; 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Courier New', monospace;
+    font-weight: bolder;
     font-size: 18px; 
  text-align: center;
     margin-top: -120px;
@@ -77,7 +85,7 @@ nav{
 
 }
 main{
-    background-image: linear-gradient(to bottom,#5B2C6F ,white);
+    background-image: linear-gradient(to bottom,#5B2C6F ,rgb(255, 255, 255));
     display: flex;
     max-width: 100%;
 }
@@ -121,6 +129,7 @@ a.icon{
     justify-content: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 25px;
+   
     
    
 
@@ -190,11 +199,17 @@ li{
 
 #linkedin:hover{
     color: rgba(0, 162, 255, 0.493);
+    border-color: #ab0af0;
 }
 #email:hover{
     color: yellow;
-
+    border-color: #ab0af0;
 }
 #github:hover{
     color: #5B2C6F;
+    border-color: #ab0af0;
+}
+ .id a:hover{ box-shadow:1px 1px 1px 1px #ab0af0;
+   
+
 }
