@@ -24,6 +24,7 @@ body{
     border-width: 10px;
    
    box-shadow:2px 5px 5px 5px #ab0af0;
+   animation: neon-animation 1.5s infinite alternate;
 }
 .id{
     margin-top: 0px;
@@ -211,5 +212,14 @@ li{
 }
  .id a:hover{ box-shadow:1px 1px 1px 1px #ab0af0;
    border-radius: 15%;
+   animation: neon-animation 0.5s  alternate;
+}
 
+@keyframes neon-animation {
+  0% {
+    box-shadow: 0 0 5px #fff;
+  }
+  100% {
+    box-shadow: 0 0 20px #ff00ea, 0 0 40px #ff00ea, 0 0 80px #ff00ea;
+  }
 }
