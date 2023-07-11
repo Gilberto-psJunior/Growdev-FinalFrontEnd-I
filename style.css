@@ -212,7 +212,7 @@ li{
 }
  .id a:hover{ box-shadow:1px 1px 1px 1px #ab0af0;
    border-radius: 15%;
-   animation: neon-animation 0.5s  alternate;
+   
 }
 
 @keyframes neon-animation {
