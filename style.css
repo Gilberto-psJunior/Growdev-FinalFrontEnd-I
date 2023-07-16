@@ -42,7 +42,7 @@ body
 }
 
 .title{
-    margin-left: 100px;
+    
     font-size: 6rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
@@ -158,12 +158,18 @@ a.icon{
 .social{
     margin-top: 100px;
    display: flex;
-   justify-content: space-between;
-   margin-left:210px ;
-  padding: 0px;
-    text-align: center;
-    max-width: 50%;
+   flex-direction: row;
+   justify-content: center;
+    
+    
 }
+.social a{
+    margin: 0 -100px; /* add this line, -20px margin to left and right, 20px is based on the border-spacing amount which is 20 px in this example  */
+    
+    border-spacing: 200px 0;
+  }
+
+
 li:hover,a:hover{
     cursor: pointer;
    transform: scale(1.2);
